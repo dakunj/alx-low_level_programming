@@ -3,8 +3,8 @@
 #include <time.h>
 /* more heae */
 
-/* main function. 
- * Print if a random number generated is either positive or negative */
+/* main function.*/
+/* Print if a random number generated is either positive or negative */
 int main(void)
 {
 	int n;
