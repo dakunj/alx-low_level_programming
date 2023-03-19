@@ -19,6 +19,7 @@ int main(void)
 	} else 
 	{
 		printf("%d is zero ", n);
+	}
 	/* your code goes there */
 	return (0);
 }
