@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more heae */
-
-/* main function.*/
-/* Print if a random number generated is either positive or negative */
+/* main - To print when a number is positive, negative or zero*/
+/* Return (0) */
 int main(void)
 {
 	int n;
