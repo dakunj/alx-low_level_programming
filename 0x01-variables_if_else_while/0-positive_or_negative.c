@@ -4,6 +4,7 @@
 /* main - To print when a number is positive, negative or zero*/
 /* Return (0) */
 int main(void)
+/*main - to print when a number is positive, negative or zero*/
 {
 	int n;
 
