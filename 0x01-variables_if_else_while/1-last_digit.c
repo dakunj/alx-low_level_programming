@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - function to print the last digit of a stored number
+ * main - void function main  to print the last digit of a stored number
  *
  * Return: 0
  *
