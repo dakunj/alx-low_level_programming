@@ -15,7 +15,7 @@ int main()
 	{
 		c = tolower(x);
 		putchar (c);
-		c++;
+		x++;
 	}
 	return (0);
 }
