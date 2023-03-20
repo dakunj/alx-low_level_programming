@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - void function main  to print the last digit of a stored number
  *
  * and check if the number is greater than 5, less than 6, or 0
