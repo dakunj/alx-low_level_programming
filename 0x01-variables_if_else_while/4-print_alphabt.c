@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - function to print alphabet in lowercase missing q and e 
+ * main - function to print alphabet in lowercase missing q and e
  * followed by a new line
  *
  * Return: 0
