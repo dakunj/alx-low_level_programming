@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /**
- * main - function to print alphabet in lowercase missing q and e followed by a new line
+ * main - function to print alphabet in lowercase missing q and e 
+ * followed by a new line
  *
- * return: 0
+ * Return: 0
  */
 
 int main(void)
@@ -20,8 +21,8 @@ int main(void)
 		}
 		c = tolower(x);
 		putchar(c);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
 
