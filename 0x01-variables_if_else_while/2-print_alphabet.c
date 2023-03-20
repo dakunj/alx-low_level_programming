@@ -7,15 +7,17 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int x = 'A';
 	int c;
-	while(x <= 'Z')
+
+	while (x <= 'Z')
 	{
 		c = tolower(x);
 		putchar (c);
 		x++;
 	}
+	putchar("\n");
 	return (0);
 }
