@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/* 
+/*
  * main - function to print the last digit of a stored number
  *
  * Return: 0
+ *
+ * and check if the number is greater than 5, less than 6, or 0
  */
+
 int main(void)
 {
 	int n;
