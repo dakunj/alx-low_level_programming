@@ -1,26 +1,19 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
- * _memcpy - Write a function that copies memory area.
- * The _memcpy() function copies n bytes from memory area src to memory area
- * dest
- *
- * @dest: This is the output string
- * @src: This is my input string
- * @n: This is the number bytes to copy
- *
- * Return: This is the string copied
+ * _strchr - Function that locates a character in a string
+ * @s: This is the input string
+ * @c: This is the character
+ * Return: Return to the character found, if not return a NULL
  */
-
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strchr(char *s, char c)
 {
-	unsigned int count;
-	char *pDst = dest;
-	char const *pSrc =  src;
-
-	for (count = 0; count < n; count++)
+	for (; ; s++)
 	{
-		*pDst++ = *pSrc++;
+		if (*s == c)
+			return (s);
+		if (*s == 0)
+			return (NULL);
 	}
-	return (dest);
+	return (NULL);
 }
