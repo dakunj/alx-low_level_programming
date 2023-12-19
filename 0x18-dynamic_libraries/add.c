@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * add - add two integers
@@ -8,5 +7,6 @@
  * return: addition
  */
 int add(int a, int b)
-
+{
 	return(a + b);
+}
